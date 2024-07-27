@@ -16,10 +16,10 @@ const ProjectCard = ({ project }) => {
       <figure className="h-1/2">
         <img className="h-full w-full" src={image} alt={name} />
       </figure>
-      <div className="card-body px-2">
+      <div className="card-body px-2 pb-2">
         <h2 className="card-title uppercase headerFont">{name}</h2>
         <p className="text-font">{details?.substring(0, 45)} .....</p>
-        <div className="card-actions flex justify-between items-center gap-5">
+        <div className=" mt-5 pb-0 flex justify-between items-center gap-5">
           <div className="flex gap-3 items-center">
             <SocialIcon title="live website" link={livelink} Icon={FaEye} />
             <SocialIcon

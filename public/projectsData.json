@@ -2,6 +2,7 @@
   {
     "_id": 1,
     "name": "Bistro Boss",
+    "type": "fullstack",
     "image": "https://i.ibb.co/brMjXXL/Screenshot-2024-07-27-104749.png",
     "frontendRepLink": "https://github.com/foisal143/bistro-resturent-client",
     "backendRepLink": "https://github.com/foisal143/bistro-boss-server",
@@ -11,6 +12,7 @@
   {
     "_id": 2,
     "name": "Bazaar Bay",
+    "type": "fullstack",
     "image": "https://i.ibb.co/7NfVzHc/Screenshot-2024-07-27-105608.png",
     "frontendRepLink": "https://github.com/foisal143/bazaar-bay-client",
     "backendRepLink": "https://github.com/foisal143/bazaar-bay-server",
@@ -20,6 +22,7 @@
   {
     "_id": 3,
     "name": "Language Loom",
+    "type": "fullstack",
     "image": "https://i.ibb.co/gDXSNXy/Screenshot-2024-07-27-105518.pnghttps://example.com/image3.jpg",
     "frontendRepLink": "https://github.com/foisal143/language-loom-client",
     "backendRepLink": "https://github.com/foisal143/language-loop-server",

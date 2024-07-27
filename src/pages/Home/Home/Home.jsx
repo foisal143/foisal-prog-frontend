@@ -3,16 +3,18 @@ import Header from '../Header/Header';
 import ProjectSection from '../ProjectSection/ProjectSection';
 import Services from '../Services/Services';
 import SkillSection from '../SkillSection/SkillSection';
+import Testimonial from '../Testimonial/Testimonial';
 
 const Home = () => {
   return (
-    <div>
+    <>
       <Header />
       <AboutPage />
       <SkillSection />
       <Services />
       <ProjectSection />
-    </div>
+      <Testimonial></Testimonial>
+    </>
   );
 };
 

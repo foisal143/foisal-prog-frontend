@@ -1,0 +1,23 @@
+[
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzmkLOHZptuOYLp3pOF0X5cflauz-3B6C1cg&s",
+    "name": "Jane Doe",
+    "details": "Working with John Smith as a MERN full-stack developer has been an exceptional experience. John's expertise in MongoDB, Express, React, and Node.js is top-notch. He has consistently delivered high-quality code, met tight deadlines, and provided innovative solutions to complex problems. John's ability to collaborate effectively with our team and his proactive approach to addressing potential issues have made him an invaluable asset to our projects. I highly recommend John for any development role that requires a skilled and dedicated professional.",
+    "date": "2024-07-27",
+    "company": "Tech Innovators Inc."
+  },
+  {
+    "image": "https://m.media-amazon.com/images/M/MV5BNTE5MTNhMzgtNDEwYi00ZWNiLWFhM2YtZDE2ZjU1NTRmNWJjXkEyXkFqcGdeQXVyMjI4MDE0ODA@._V1_CR185,68,753,1130_.jpg",
+    "name": "John Doe",
+    "details": "John Smith is an outstanding MERN full-stack developer. His proficiency in building scalable and efficient applications using MongoDB, Express, React, and Node.js is impressive. John is highly reliable, always meeting project deadlines and exceeding expectations with his innovative solutions. His ability to work seamlessly within our team and his keen attention to detail have greatly contributed to the success of our projects. I wholeheartedly recommend John for any full-stack development role.",
+    "date": "2024-06-15",
+    "company": "Web Solutions LLC"
+  },
+  {
+    "image": "https://static.wikia.nocookie.net/spidermanmovies/images/3/39/Mary_Jane_Watson_1.jpg/revision/latest/thumbnail/width/360/height/360?cb=20120424235538",
+    "name": "Mary Jane",
+    "details": "I have had the pleasure of working with John Smith on several projects, and I can confidently say that he is one of the best MERN full-stack developers I have ever worked with. John's deep understanding of the MERN stack, along with his problem-solving skills and attention to detail, have been invaluable to our team. He consistently delivers high-quality work on time and is always ready to go the extra mile to ensure project success. I highly recommend John for any full-stack development position.",
+    "date": "2024-05-10",
+    "company": "Innovative Tech Co."
+  }
+]

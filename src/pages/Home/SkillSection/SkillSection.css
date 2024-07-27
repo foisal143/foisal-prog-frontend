@@ -1,0 +1,65 @@
+input[type='range'] {
+  -webkit-appearance: none; /* Remove default styling */
+  width: 100%; /* Adjust width as needed */
+  background: transparent; /* Background of the slider */
+}
+
+input[type='range']::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Remove default thumb styling */
+  background: aqua; /* Color of the thumb */
+  border-radius: 50%; /* Rounded thumb */
+  width: 15px; /* Width of the thumb */
+  height: 15px; /* Height of the thumb */
+  cursor: pointer; /* Cursor on hover */
+  position: relative;
+  top: -3px;
+}
+
+input[type='range']::-webkit-slider-runnable-track {
+  background: white; /* Color of the track */
+  height: 8px; /* Height of the track */
+  border-radius: 5px; /* Rounded track */
+}
+
+/* for firefox  */
+input[type='range'] {
+  -moz-appearance: none; /* Remove default styling */
+  width: 100%; /* Adjust width as needed */
+  background: transparent; /* Background of the slider */
+}
+
+input[type='range']::-moz-range-thumb {
+  background: aqua; /* Color of the thumb */
+  border-radius: 50%; /* Rounded thumb */
+  width: 15px; /* Width of the thumb */
+  height: 15px; /* Height of the thumb */
+  cursor: pointer; /* Cursor on hover */
+  border: 1px solid #ccc; /* Optional border */
+}
+
+input[type='range']::-moz-range-track {
+  background: #ddd; /* Color of the track */
+  height: 8px; /* Height of the track */
+  border-radius: 5px; /* Rounded track */
+}
+
+/* for internal expoloral */
+input[type='range'] {
+  width: 100%; /* Adjust width as needed */
+}
+
+input[type='range']::-ms-thumb {
+  background: aqua; /* Color of the thumb */
+  border-radius: 50%; /* Rounded thumb */
+  width: 15px; /* Width of the thumb */
+  height: 15px; /* Height of the thumb */
+  cursor: pointer; /* Cursor on hover */
+}
+
+input[type='range']::-ms-track {
+  background: #ddd; /* Color of the track */
+  height: 8px; /* Height of the track */
+  border-radius: 5px; /* Rounded track */
+  border: none; /* Remove default border */
+  color: transparent; /* Hide track */
+}

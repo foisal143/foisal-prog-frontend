@@ -1,0 +1,226 @@
+.container {
+  position: relative;
+  width: 400px;
+  height: 400px;
+}
+
+.main-image {
+  width: 270px; /* Adjust size as needed */
+  height: 270px; /* Adjust size as needed */
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.icon {
+  position: absolute;
+  top: 45%;
+  left: 45%;
+
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #252734;
+  box-shadow: 0 0 5px aqua;
+  animation: rotate 8s linear infinite;
+  transform-origin: 50% 50% 200px;
+  /* Center origin point at the center of the container */
+}
+
+.icon i {
+  font-size: 24px;
+  color: #333;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg) translateX(168px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translateX(168px) rotate(-360deg);
+  }
+}
+
+.icon1 {
+  animation-delay: 0s;
+}
+.icon1 i {
+  color: red;
+}
+
+.icon2 {
+  animation-delay: 1.14s;
+  color: lightskyblue;
+}
+.icon2 i {
+  color: lightskyblue;
+}
+
+.icon3 {
+  animation-delay: 2.28s;
+}
+.icon3 i {
+  color: yellow;
+}
+
+.icon4 {
+  animation-delay: 3.42s;
+}
+.icon4 i {
+  color: blue;
+}
+
+.icon5 {
+  animation-delay: 4.56s;
+}
+.icon5 i {
+  color: green;
+}
+
+.icon6 {
+  animation-delay: 5.7s;
+}
+.icon6 i {
+  color: #366c9a;
+}
+
+.icon7 {
+  animation-delay: 6.84s;
+}
+.icon7 i {
+  color: #4d588e;
+}
+
+/* typing text for header  */
+.intro-conteiner .typing-text {
+  font-size: 30px;
+  margin: 10px 0px;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+.typing-text span {
+  position: relative;
+  left: 5px;
+  padding: 5px;
+}
+
+.typing-text span::before {
+  content: '';
+  color: aqua;
+  font-weight: bold;
+  letter-spacing: 12px;
+  animation: text 20s infinite;
+}
+
+@keyframes text {
+  0%,
+  20% {
+    content: ' Devoloper';
+  }
+  21%,
+  40% {
+    content: ' Programer';
+  }
+  41%,
+  60% {
+    content: ' Creator';
+  }
+  61%,
+  80% {
+    content: ' SEO Expert';
+  }
+  81%,
+  100% {
+    content: ' Entrepreneur';
+  }
+}
+.typing-text span::after {
+  content: '';
+  position: absolute;
+  width: calc(100% + 10px);
+  height: 60%;
+  background: #252734;
+  animation: coursor 0.8s infinite, typing 20s steps(14) infinite;
+  border-left: 2px solid white;
+  right: 0;
+  top: 8px;
+}
+@keyframes coursor {
+  to {
+    border-left: transparent;
+  }
+}
+@keyframes typing {
+  10%,
+  15%,
+  30%,
+  35%,
+  50%,
+  55%,
+  70%,
+  75%,
+  90%,
+  95% {
+    width: 0;
+  }
+  5%,
+  20%,
+  25%,
+  40%,
+  45%,
+  60%,
+  65%,
+  80%,
+  85% {
+    width: 100%;
+  }
+}
+
+@media (max-width: 430px) {
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg) translateX(135px) rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg) translateX(135px) rotate(-360deg);
+    }
+  }
+  .main-image {
+    width: 200px; /* Adjust size as needed */
+    height: 200px; /* Adjust size as needed */
+  }
+  .icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+  }
+
+  .icon i {
+    font-size: 20px;
+  }
+}
+
+/* @media ((min-width: 401px)and (max-width:  480px)) {
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg) translateX(163px) rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg) translateX(163px) rotate(-360deg);
+    }
+  }
+  .icon {
+    width: 25px;
+    height: 25px;
+  }
+  .icon i {
+    font-size: 18px;
+  }
+} */

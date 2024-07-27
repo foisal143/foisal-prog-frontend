@@ -43,7 +43,7 @@ const Header = () => {
           </article>
         </div>
         {/* image section here */}
-        <div className=" w-full justify-center mt-12 flex">
+        <div className=" w-full justify-center mt-12 md:mt-24 flex">
           <div
             data-aos="fade-left"
             data-aos-duration="2000"

@@ -17,7 +17,7 @@ const ProjectCard = ({ project }) => {
         <img className="h-full w-full" src={image} alt={name} />
       </figure>
       <div className="card-body px-2">
-        <h2 className="card-title">{name}</h2>
+        <h2 className="card-title uppercase headerFont">{name}</h2>
         <p className="text-font">{details?.substring(0, 45)} .....</p>
         <div className="card-actions flex justify-between items-center gap-5">
           <div className="flex gap-3 items-center">

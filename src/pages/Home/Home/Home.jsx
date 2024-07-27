@@ -3,6 +3,7 @@ import Header from '../Header/Header';
 import ProjectSection from '../ProjectSection/ProjectSection';
 import Services from '../Services/Services';
 import SkillSection from '../SkillSection/SkillSection';
+import SubscibeSection from '../SubscribeSection/SubscibeSection';
 import Testimonial from '../Testimonial/Testimonial';
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
       <Services />
       <ProjectSection />
       <Testimonial></Testimonial>
+      <SubscibeSection />
     </>
   );
 };

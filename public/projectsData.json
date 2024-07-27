@@ -1,0 +1,29 @@
+[
+  {
+    "_id": 1,
+    "name": "Bistro Boss",
+    "image": "https://i.ibb.co/brMjXXL/Screenshot-2024-07-27-104749.png",
+    "frontendRepLink": "https://github.com/foisal143/bistro-resturent-client",
+    "backendRepLink": "https://github.com/foisal143/bistro-boss-server",
+    "livelink": "https://bistro-boss-30d12.web.app/",
+    "details": "This is a web application for managing a Resturant. Built with React and Node.js."
+  },
+  {
+    "_id": 2,
+    "name": "Bazaar Bay",
+    "image": "https://i.ibb.co/7NfVzHc/Screenshot-2024-07-27-105608.png",
+    "frontendRepLink": "https://github.com/foisal143/bazaar-bay-client",
+    "backendRepLink": "https://github.com/foisal143/bazaar-bay-server",
+    "livelink": "https://bazzar-bay-ecomarce.web.app/",
+    "details": "An e-commerce platform with a custom CMS. Developed using React.js and Node.js."
+  },
+  {
+    "_id": 3,
+    "name": "Language Loom",
+    "image": "https://i.ibb.co/gDXSNXy/Screenshot-2024-07-27-105518.pnghttps://example.com/image3.jpg",
+    "frontendRepLink": "https://github.com/foisal143/language-loom-client",
+    "backendRepLink": "https://github.com/foisal143/language-loop-server",
+    "livelink": "https://language-loom.web.app/",
+    "details": "An language learning  platform with a custom CMS. Developed using React.js and Node.js."
+  }
+]

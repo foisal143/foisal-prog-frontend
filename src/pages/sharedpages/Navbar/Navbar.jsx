@@ -11,7 +11,7 @@ const Navbar = () => {
       setScrollValue(window.scrollY);
     });
   }, []);
-  console.log(isOpen);
+
   return (
     <nav
       className={`navbar  transition-all duration-500 px-5 lg:px-20 z-20  lg:sticky top-0 overflow-hidden h-20 ${

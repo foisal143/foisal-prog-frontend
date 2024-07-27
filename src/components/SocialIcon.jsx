@@ -1,9 +1,10 @@
-const SocialIcon = ({ Icon, link, color, animate, duration }) => {
+const SocialIcon = ({ Icon, link, color, animate, duration, title }) => {
   return (
     <a
       data-aos={animate}
       data-aos-duration={duration}
       href={link}
+      title={title}
       target="_blank"
       className={`w-[35px] h-[35px] flex justify-center items-center shadow-sm hover:shadow-md transition-all hover:shadow-white cursor-pointer shadow-white bg-transparent  rounded-full ${color}`}
     >

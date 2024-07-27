@@ -12,7 +12,7 @@ const ProjectCard = ({ project }) => {
     details,
   } = project;
   return (
-    <div className="card bg-transparent border border-[aqua] w-full shadow-xl">
+    <div className="card bg-transparent border  w-full shadow-xl">
       <figure className="h-1/2">
         <img className="h-full w-full" src={image} alt={name} />
       </figure>

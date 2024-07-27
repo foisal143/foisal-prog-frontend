@@ -11,7 +11,11 @@ const ProjectSection = () => {
   return (
     <Container>
       <div className="my-24">
-        <TitleText animation="fade-up" styles="my-0 lg:my-12" text="Projects" />
+        <TitleText
+          animation="fade-up"
+          styles="my-0 mb-12 lg:my-12"
+          text="Projects"
+        />
         <div className="bg-dark rounded-md p-5">
           {projects && projects.length > 0 ? (
             <div

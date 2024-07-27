@@ -58,6 +58,24 @@ const Services = () => {
               </li>
             </ul>
           </div>
+
+          <div className="w-full p-5 px-12">
+            <h3 data-aos="fade-left" className="text-xl headerFont">
+              Other <span className="text-[aqua]">Services</span>
+            </h3>
+
+            <ul className="list-disc text-font ms-4 mt-2">
+              <li data-aos="fade-up" data-aos-duration="500">
+                One month free support
+              </li>
+              <li data-aos="fade-up" data-aos-duration="1000">
+                Free marketing advaice
+              </li>
+              <li data-aos="fade-up" data-aos-duration="1500">
+                Solved any problem about website for free
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </Container>

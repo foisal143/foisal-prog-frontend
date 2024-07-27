@@ -19,5 +19,12 @@
     "details": "I have had the pleasure of working with John Smith on several projects, and I can confidently say that he is one of the best MERN full-stack developers I have ever worked with. John's deep understanding of the MERN stack, along with his problem-solving skills and attention to detail, have been invaluable to our team. He consistently delivers high-quality work on time and is always ready to go the extra mile to ensure project success. I highly recommend John for any full-stack development position.",
     "date": "2024-05-10",
     "company": "Innovative Tech Co."
+  },
+  {
+    "image": "https://static.wikia.nocookie.net/spidermanmovies/images/3/39/Mary_Jane_Watson_1.jpg/revision/latest/thumbnail/width/360/height/360?cb=20120424235538",
+    "name": "Mary Smith",
+    "details": "I have had the pleasure of working with John Smith on several projects, and I can confidently say that he is one of the best MERN full-stack developers I have ever worked with. John's deep understanding of the MERN stack, along with his problem-solving skills and attention to detail, have been invaluable to our team. He consistently delivers high-quality work on time and is always ready to go the extra mile to ensure project success. I highly recommend John for any full-stack development position.",
+    "date": "2024-05-10",
+    "company": "Innovative Tech Co."
   }
 ]

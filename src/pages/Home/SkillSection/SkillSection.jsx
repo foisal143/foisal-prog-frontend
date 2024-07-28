@@ -7,7 +7,7 @@ const SkillSection = () => {
       <div className="my-24">
         <TitleText text="skills" animation="fade-down" />
 
-        <div className="lg:flex bg-dark p-5 rounded-md overflow-hidden justify-between gap-10 my-20">
+        <div className="lg:flex bg-primary p-5 rounded-md overflow-hidden justify-between gap-10 my-20">
           <div className=" w-full mt-12 md:mt-0">
             <h3 data-aos="fade-right" className="text-xl headerFont">
               Tecnical <span className="text-[aqua]">Skills</span>
@@ -15,7 +15,7 @@ const SkillSection = () => {
 
             <div
               data-aos="fade-right"
-              className="bg-dark  overflow-hidden mt-5  p-5"
+              className="bg-primary  overflow-hidden mt-5  p-5"
             >
               <div data-aos="fade-right" data-aos-duration="1000">
                 <label htmlFor="html">HTML</label>
@@ -165,7 +165,7 @@ const SkillSection = () => {
             <div
               data-aos="fade-left"
               data-aos-duration="1000"
-              className="bg-dark overflow-hidden mt-5 rounded-md p-5"
+              className="bg-primary overflow-hidden mt-5 rounded-md p-5"
             >
               <div data-aos="fade-left" data-aos-duration="1500">
                 <label htmlFor="html">COMUNICATION</label>

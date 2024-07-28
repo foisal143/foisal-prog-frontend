@@ -4,7 +4,7 @@ import './AboutPage.css';
 import TitleText from '../../../components/TitleText';
 const AboutPage = () => {
   return (
-    <div className="pb-12">
+    <div id="about" className="pb-12">
       <TitleText animation="fade-up" text="about me" styles="mt-20 lg:mt-0" />
       <div className="md:flex flex-col-reverse md:flex-row flex justify-between items-center gap-10 mt-20 px-5 lg:px-12 ">
         <div className=" w-full flex justify-center items-center">

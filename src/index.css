@@ -5,12 +5,16 @@
 body {
   max-width: 1400px;
   margin: auto;
-  background-color: #252734;
+  background-color: #2a2c39;
   color: white;
 }
 
 .bg-primary {
   background-color: #252734;
+}
+
+.bg-secondary {
+  background-color: #2a2c39;
 }
 
 .bg-dark {

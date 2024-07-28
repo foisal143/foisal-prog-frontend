@@ -3,7 +3,7 @@ const TestimonialCard = ({ testimonial }) => {
   return (
     <div
       data-aos="zoom-in"
-      className="space-y-5 bg-dark p-5 h-[450px] overflow-hidden"
+      className="space-y-5 bg-primary p-5 h-[450px] overflow-hidden"
     >
       <div className="flex gap-4 items-center">
         <img

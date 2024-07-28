@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <nav
       className={`navbar  transition-all duration-500 px-5 lg:px-20 z-20  lg:sticky top-0 overflow-hidden h-20 ${
-        scrollValue > 50 ? 'bg-black' : 'bg-transparent'
+        scrollValue > 50 ? 'bg-primary' : 'bg-transparent'
       }`}
     >
       <div data-aos="fade-right" className="flex-1 group">
